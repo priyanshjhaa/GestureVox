@@ -101,7 +101,7 @@ Press **Q** in the camera window to quit.
 |---|---|---|
 | Pause was an open palm held still, and people swipe with an open palm, so v2 paused itself whenever the hand rested (Midas touch problem) | 4 accidental pauses, 1 swipe ignored while paused | Pause gesture changed to a V sign, which doesn't occur naturally while swiping |
 | Swipes hard to trigger | Only 1 swipe recognised | Threshold lowered to 0.10, longer window (0.6 s), less smoothing lag; live adjustment with [ / ] |
-| Swipes detected but slides didn't move | Second run log: 9 accidental blackouts in about 3 min. A sideways hand during swipes looked like a fist, B blacked the slides out, and the next arrow key only un-blacked them | Blackout made opt-in (`--blackout`) with a longer 1.5 s hold |
+| Swipes detected but slides didn't move | Second run log: 11 accidental fist triggers (7 blackouts) in about 3 min. A sideways hand during swipes looked like a fist, B blacked the slides out, and the next arrow key only un-blacked them | Blackout made opt-in (`--blackout`) with a longer 1.5 s hold |
 | Camera window kept keyboard focus | Arrow keys reached the camera window instead of the slideshow | Removed "always on top" from the camera window |
 
 ## User study kit (`study/`)
